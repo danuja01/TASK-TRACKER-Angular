@@ -1,0 +1,10 @@
+<div class="bg-gray-200 mb-3 rounded p-2 hover:shadow-md hover:shadow-gray-600">
+  <div class="grid grid-cols-4">
+    <p class="col-span-3">{{ task.text }}</p>
+    <fa-icon
+      class="text-gray-600 text-xs flex items-start justify-self-end hover:text-red-600"
+      [icon]="faTimes"
+    ></fa-icon>
+  </div>
+  <p class="text-xs text-gray-500">{{ task.day }}</p>
+</div>
